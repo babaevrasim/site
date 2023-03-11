@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Quick_Chocolate;
+    src: url(../fonts/Quite_Chocolatey.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/ofont.ru_Montserrat.ttf);
+}
+@font-face {
+    font-family: Montserrat_bold;
+    src: url(../fonts/ofont.ru_Montserrat_bold.ttf);
+}
+@font-face {
+    font-family: PT_Serif_reg;
+    src: url(../fonts/PT_Serif-Web-Regular.ttf);
+}
+@font-face {
+    font-family: Couture_bld;
+    src: url(../fonts/couture-bld.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head {
+}
+.container__inner {
+    justify-content: center;
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.head_bg {
+    background-image: url(/img/Layer\ 13.png);
+}
+.menu {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.logo {
+        font-size: 60px;
+        font-family: "Quite Chocolatey";
+        color: rgb(255, 255, 255);
+        line-height: 32px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.nav a:hover {
+    background-color: #130e27;
+    border-radius: 5%;
+}
+.box__text p {
+        font-size: 20px;
+        font-family: PT_Serif_reg;
+        color: rgb(255, 255, 255);
+        line-height: 28px;
+        max-width: 460px;
+        padding-bottom: 160px;
+}
+.sell_your {
+    font-size: 90px;
+    font-family: Montserrat_bold;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    margin-top: 130px;
+    line-height: 80px;
+}
+.car_now {
+    font-size: 90px;
+    font-family: Montserrat_bold;
+    color: white;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+.services {
+}
+.services__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0 75px;
+}
+.services__title {
+    font-size: 25px;
+    font-family: Couture_bld;
+    color: #130e27;
+    font-weight: bold;
+    margin: 20px 0 90px 0;
+}
+.s_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.servised__text {
+        font-size: 20px;
+        font-family: PT_Serif_reg;
+        color: rgb(22, 22, 22);
+        line-height: 28px;
+        text-align: center;
+}
+.services__cards {
+}
+.story {
+    background-color: #130e27;
+}
+.story_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 25px;
+}
+.story__text p {
+    max-width: 630px;
+    font-size: 20px;
+    font-family: PT_Serif_reg;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+}
+.story__button {
+        font-size: 15px;
+        font-family: Montserrat;
+        color: rgb(255, 255, 255);
+        line-height: 28px;
+        background-color: #c62314;
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 260px;
+        text-align: center;
+}
+.story__button a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.pricing {
+    background-color: #efefef;
+}
+.pricing__title {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    padding: 35px 0 60px;
+}
+.pricing__title h1 {
+}
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.pricing__card {
+    background-color: #fff;
+    padding: 30px 10px;
+    width: 320px;
+    height: 390px;
+}
+.p1 {
+    font-size: 22px;
+    font-family: PT_Serif_reg;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pricing__card h2 {
+    font-size: 60px;
+    font-family: Montserrat_bold;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 20px;
+    font-family: PT_Serif_reg;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    text-align: center;
+}
+.pricing_button {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: white;
+    line-height: 28px;
+    background-color: #130e27;
+    width: 205px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto 0;
+    padding-top: 10px;
+}
+.pricing_button:hover {
+    background-color: #c62314;
+}
+.pricing__card a {
+    list-style: none;
+    text-decoration: none;
+    background-color: #c62314;
+}
+
+.footer {
+    background-color: #130e27;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 90px;
+}
+.footer__rights {
+        font-size: 20px;
+        font-family: PT_Serif_reg;
+        color: rgb(255, 255, 255);
+        line-height: 22px;
+}
+.footer__logo {
+        font-size: 60px;
+        font-family: "Quite Chocolatey";
+        color: rgb(198, 35, 20);
+        line-height: 23.6px;
+}
